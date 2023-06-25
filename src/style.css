@@ -96,9 +96,16 @@ main {
   color: var(--medium-gray);
 }
 
-#ratingS .numbers-container > .hover:hover { 
+#ratingS .numbers-container > .hover:focus-visible { 
   background-color: var(--medium-gray);
-  color: var(--white)
+  color: var(--white);  
+}
+
+@media screen and (min-width:64rem) {
+  #ratingS .numbers-container > .hover:hover { 
+    background-color: var(--medium-gray);
+    color: var(--white);  
+  }
 }
 
 #ratingS .numbers-container > .clicked {
