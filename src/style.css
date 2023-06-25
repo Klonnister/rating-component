@@ -101,13 +101,13 @@ main {
   color: var(--white)
 }
 
-#ratingS .numbers-container > .down {
-    background-color: var(--light-gray);
-    color: var(--white);
-  }
-
 #ratingS .numbers-container > .clicked {
   background-color: var(--orange);
+  color: var(--white);
+}
+
+#ratingS .numbers-container > .down {
+  background-color: var(--light-gray);
   color: var(--white);
 }
 
