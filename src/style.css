@@ -170,5 +170,9 @@ footer {
     font-size: 11px;
     position: absolute;
     bottom: 0;
+    
+    @media screen and (max-height: 25rem) {
+      display: none;
+  }
 }
 
